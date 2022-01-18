@@ -1,5 +1,7 @@
 import React from "react";
+import { AdminDashboard } from "..";
 import { Sidebar, Topbar } from "../../Components";
+
 import "./Home.css";
 
 const Home = () => {
@@ -8,7 +10,7 @@ const Home = () => {
       <Topbar />
       <div className="container">
         <Sidebar />
-        <div className="others">Other page</div>
+        <AdminDashboard />
       </div>
     </div>
   );
